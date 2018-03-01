@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "template/death/death"
+  ],
+  "window": {
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "cowboy"
+  }
+}

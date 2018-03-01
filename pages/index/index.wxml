@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="button-group">
+    <button class="start-game">开始游戏</button>
+    <button class="killing-gallery">杀戮画廊</button>
+  </view>
+  
+  
+</view>
