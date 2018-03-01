@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>death_30_0001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{138, 31}, {98, 70}}</string>
+			<key>spriteOffset</key>
+			<string>{-13, 9}</string>
+			<key>spriteSize</key>
+			<string>{98, 70}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{862, 88}, {98, 70}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{130, 26}, {116, 74}}</string>
+			<key>spriteOffset</key>
+			<string>{-12, 12}</string>
+			<key>spriteSize</key>
+			<string>{116, 74}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{256, 270}, {116, 74}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{122, 23}, {132, 78}}</string>
+			<key>spriteOffset</key>
+			<string>{-12, 13}</string>
+			<key>spriteSize</key>
+			<string>{132, 78}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{256, 190}, {132, 78}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{115, 16}, {144, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{-13, 17}</string>
+			<key>spriteSize</key>
+			<string>{144, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{858, 2}, {144, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{107, 10}, {156, 90}}</string>
+			<key>spriteOffset</key>
+			<string>{-15, 20}</string>
+			<key>spriteSize</key>
+			<string>{156, 90}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{260, 98}, {156, 90}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{99, 6}, {168, 94}}</string>
+			<key>spriteOffset</key>
+			<string>{-17, 22}</string>
+			<key>spriteSize</key>
+			<string>{168, 94}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{390, 224}, {168, 94}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{96, 9}, {176, 92}}</string>
+			<key>spriteOffset</key>
+			<string>{-16, 20}</string>
+			<key>spriteSize</key>
+			<string>{176, 92}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{680, 2}, {176, 92}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{94, 9}, {188, 92}}</string>
+			<key>spriteOffset</key>
+			<string>{-12, 20}</string>
+			<key>spriteSize</key>
+			<string>{188, 92}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{418, 130}, {188, 92}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{91, 8}, {196, 92}}</string>
+			<key>spriteOffset</key>
+			<string>{-11, 21}</string>
+			<key>spriteSize</key>
+			<string>{196, 92}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{422, 36}, {196, 92}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{88, 6}, {204, 94}}</string>
+			<key>spriteOffset</key>
+			<string>{-10, 22}</string>
+			<key>spriteSize</key>
+			<string>{204, 94}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{216, 2}, {204, 94}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 6}, {212, 96}}</string>
+			<key>spriteOffset</key>
+			<string>{-9, 21}</string>
+			<key>spriteSize</key>
+			<string>{212, 96}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 2}, {212, 96}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 12}, {220, 90}}</string>
+			<key>spriteOffset</key>
+			<string>{-8, 18}</string>
+			<key>spriteSize</key>
+			<string>{220, 90}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{560, 258}, {220, 90}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 23}, {226, 78}}</string>
+			<key>spriteOffset</key>
+			<string>{-5, 13}</string>
+			<key>spriteSize</key>
+			<string>{226, 78}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{782, 326}, {226, 78}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 35}, {230, 66}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, 7}</string>
+			<key>spriteSize</key>
+			<string>{230, 66}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{782, 258}, {230, 66}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 50}, {238, 52}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -1}</string>
+			<key>spriteSize</key>
+			<string>{238, 52}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{620, 96}, {238, 52}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 65}, {250, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{7, -9}</string>
+			<key>spriteSize</key>
+			<string>{250, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{764, 406}, {250, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 70}, {256, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{10, -11}</string>
+			<key>spriteSize</key>
+			<string>{256, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{422, 2}, {256, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{82, 74}, {256, 28}}</string>
+			<key>spriteOffset</key>
+			<string>{10, -13}</string>
+			<key>spriteSize</key>
+			<string>{256, 28}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 100}, {256, 28}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{83, 73}, {254, 30}}</string>
+			<key>spriteOffset</key>
+			<string>{10, -13}</string>
+			<key>spriteSize</key>
+			<string>{254, 30}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 130}, {254, 30}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{84, 73}, {252, 30}}</string>
+			<key>spriteOffset</key>
+			<string>{10, -13}</string>
+			<key>spriteSize</key>
+			<string>{252, 30}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 440}, {252, 30}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 73}, {252, 30}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -13}</string>
+			<key>spriteSize</key>
+			<string>{252, 30}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{256, 414}, {252, 30}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 72}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -13}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{510, 384}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 72}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -13}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 338}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 72}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -13}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{256, 380}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 71}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -12}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 406}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 71}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -12}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 304}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 71}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -12}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 372}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 70}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{510, 350}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 70}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 270}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0030.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 70}, {252, 32}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 32}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{256, 346}, {252, 32}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0031.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 69}, {252, 34}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 34}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 234}, {252, 34}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0032.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 69}, {252, 34}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 34}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 162}, {252, 34}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0033.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 69}, {252, 34}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 34}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{608, 222}, {252, 34}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0034.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 69}, {252, 34}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -11}</string>
+			<key>spriteSize</key>
+			<string>{252, 34}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 198}, {252, 34}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0035.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 68}, {252, 34}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -10}</string>
+			<key>spriteSize</key>
+			<string>{252, 34}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{608, 150}, {252, 34}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>death_30_0036.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{85, 68}, {252, 34}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -10}</string>
+			<key>spriteSize</key>
+			<string>{252, 34}</string>
+			<key>spriteSourceSize</key>
+			<string>{400, 150}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{608, 186}, {252, 34}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 512}</string>
+	</dict>
+</dict>
+</plist>

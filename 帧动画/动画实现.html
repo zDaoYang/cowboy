@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0 user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>123</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 100px;
+    }
+
+    h2 {
+      margin-top: .5rem;
+      font-size: .2rem;
+      text-align: center;
+    }
+
+    .current-number {
+      margin-top: 0.3rem;
+    }
+
+    .button-group {
+      position: fixed;
+      top: 70%;
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+      display: flex;
+      flex-direction: column;
+    }
+
+    button {
+      border: none;
+      width: 1rem;
+      height: .4rem;
+    }
+
+    .next {
+      margin-top: .2rem;
+    }
+
+    .demo-wrapper {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0) scale(0.7);
+      width: 8rem;
+      height: 3rem;
+    }
+
+    .demo {
+      position: absolute;
+      background-image: url('imgAndplist/death_1-hd.png');
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>Cowboy</h2>
+    <h2 class="current-number">1</h2>
+  </div>
+
+  <div class="demo-wrapper">
+    <div class="demo"></div>
+  </div>
+
+  <div class="button-group">
+    <button class="pre">上一张</button>
+    <button class="next">下一张</button>
+  </div>
+</body>
+
+<script src="https://cdn.bootcss.com/fast-xml-parser/2.9.2/parser.js"></script>
+<script>
+  function getXmlData() {
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        xmls = parser.parse(xhr.responseText).plist.dict.dict[0].dict;
+        frameCount = xmls.length;
+        let pros = xmls[0].string[4].match(/\d+/g); // pros[0]、pros[1]相对于整图的位移量 pro[2]、pro[3]小图的长度和宽度
+        let offset = xmls[0].string[0].match(/\d+/g); // 相对于外框的左上角的位置 left: offset[0] 、 top: offset[1]
+        pic.style.width = `${pros[2]}px`;
+        pic.style.height = `${pros[3]}px`;
+        pic.style.backgroundPosition = `-${pros[0]}px -${pros[1]}px`;
+        pic.style.transform = `translate3d(${offset[0]}px, ${offset[1]}px, 0)`;
+      }
+    }
+    xhr.open('get', plistUrl, false);
+    xhr.send();
+  }
+
+  function start() {
+    if (isAlive) {
+      isAlive = false;
+      let pros, offset;
+      let i = 5;
+      timer = setInterval(() => {
+        pros = xmls[i % frameCount].string[4].match(/\d+/g);
+        offset = xmls[i % frameCount].string[0].match(/\d+/g);
+        pic.style.width = pros[2] + 'px';
+        pic.style.height = pros[3] + 'px';
+        pic.style.backgroundPosition = `-${pros[0]}px -${pros[1]}px`;
+        if (parseInt(pros[2]) < parseInt(pros[3])) {
+          pic.style.left = `${offset[0]}px`;
+          pic.style.top = `${offset[1]}px`;
+          pic.style.transformOrigin = 'left top 0';
+          pic.style.transform = 'rotate(-90deg)';
+        } else {
+          pic.style.left = `${offset[0]}px`;
+          pic.style.top = `${offset[1]}px`;
+          // pic.style.transform = `translate3d(${offset[0]}px, ${offset[1]}px, 0)`;
+        }
+        i++;
+      }, 40);
+    } else {
+      clearInterval(timer);
+      isAlive = true;
+      play();
+    }
+  }
+
+  let xml, isAlive = true;
+  let timer = null; // 全局定时器timer
+  let currentFrame = 1;
+  let frameCount = 0;
+  let currentImg = 1;
+  let plistUrl = 'imgAndplist/death_1-hd.plist';
+
+  window.addEventListener('load', play);
+
+  let pic = document.getElementsByClassName('demo')[0];
+  let preBtn = document.getElementsByClassName('pre')[0];
+  let nextBtn = document.getElementsByClassName('next')[0];
+  let currentNum = document.getElementsByClassName('current-number')[0];
+
+
+  function play() {
+    currentFrame = 1;
+    let imgUrl = `url('imgAndplist/death_${currentImg}-hd.png')`;
+    plistUrl = `imgAndplist/death_${currentImg}-hd.plist`;
+    getXmlData();
+    pic.style.backgroundImage = imgUrl;
+    start();
+  }
+
+  nextBtn.addEventListener('click', () => {
+    currentImg = currentImg === 31 ? 1 : ++currentImg;
+    currentNum.innerText = currentImg;
+    setTimeout(play, 100);
+  });
+
+
+
+  preBtn.addEventListener('click', () => {
+    currentImg = currentImg === 1 ? 31 : --currentImg;
+    currentNum.innerText = currentImg;
+    setTimeout(play, 100)
+  })
+
+</script>
+
+</html>
